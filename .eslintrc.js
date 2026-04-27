@@ -1,0 +1,24 @@
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+    jest: true
+  },
+  extends: ['eslint:recommended'],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
+    },
+    ecmaVersion: 12,
+    sourceType: "module"
+  },
+  settings: {
+    react: {
+      version: "16.14"
+    }
+  },
+  rules: {
+    "no-unused-vars": "warn",
+    "no-console": "off"
+  }
+};
