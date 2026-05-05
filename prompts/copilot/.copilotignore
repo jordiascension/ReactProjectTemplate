@@ -1,0 +1,8 @@
+# Ignorar archivos .env
+.env
+.env.*
+
+# Ignorar directorios completos
+secrets/
+build/
+logs/
