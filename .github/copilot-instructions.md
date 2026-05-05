@@ -95,3 +95,11 @@ fix(utils): correct sum helper behavior
 - Updated sumar function to return the expected numeric result.
 - Added Jest coverage for positive and negative inputs.
 ```
+
+Follow the approved libraries defined in `docs/libraries.md`.
+
+For UI development:
+- Use Material UI.
+- Import components from `@mui/material`.
+- Do not use plain HTML inputs when Material UI components are available.
+- Do not add another UI component library.
