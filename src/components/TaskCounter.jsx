@@ -12,13 +12,13 @@ class TaskCounter extends Component {
     };
   }
 
-  handleCheckboxChange = (id) => {
+  handleCheckboxChange(id) {
     this.setState(prevState => ({
       tasks: prevState.tasks.map(task =>
         task.id === id ? { ...task, completed: !task.completed } : task
       )
     }));
-  };
+  }
 
   render() {
     const { tasks } = this.state;

@@ -1,0 +1,1 @@
+@workspace Analiza la estructura de este proyecto React y explícame su arquitectura: carpetas principales, componentes, rutas, estilos, tests y flujo de ejecución desde index.js hasta App.js.
