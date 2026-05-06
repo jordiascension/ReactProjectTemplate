@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCard matches snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-av45mt-MuiPaper-root-MuiCard-root"
+>
+  <div
+    className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+  >
+    <div
+      className="MuiStack-root css-1sos3zc-MuiStack-root"
+    >
+      <div
+        className="MuiAvatar-root MuiAvatar-circular css-a2xf8u-MuiAvatar-root"
+      >
+        <img
+          alt="Jane Doe"
+          className="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+          src="https://randomuser.me/api/portraits/women/1.jpg"
+        />
+      </div>
+      <div
+        className="MuiStack-root css-nen11g-MuiStack-root"
+      >
+        <h6
+          className="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+        >
+          Jane Doe
+        </h6>
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+        >
+          jane.doe@example.com
+        </p>
+        <span
+          className="MuiTypography-root MuiTypography-caption css-ol7wxs-MuiTypography-root"
+        >
+          Admin
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
